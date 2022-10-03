@@ -1,0 +1,190 @@
+body{
+    background-image: url("../imagenes/fondo_cancha.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*TODO HEADER*/
+
+header{
+    position: absolute;
+    position: fixed;
+    border: solid white 2px;
+    top: 0%;
+    left: 0%;
+    right: 0%;  
+    bottom: 90%;
+    background-image: url("../imagenes/cesped.dib");
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    z-index: 1;
+}
+
+#logo1, #logo2{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+}
+
+#logo1{
+    left: 0%;
+}
+
+#logo2{
+    right: 0%;
+    top: 0%;
+}
+
+
+/*TODO NAV*/
+
+.accordion{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.accordion-button{
+    background-color: rgb(115, 224, 115);
+}
+
+nav{
+    overflow: auto;
+    border: solid white 2px;
+    border-top-style: none;
+    border-bottom-style: none;
+    position: absolute;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    right: 80%;
+    bottom: 10%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#iconos{
+    padding-left: 20px;
+}
+
+.redondo{
+    border-radius: 50%;
+    height: 40px;
+    vertical-align: middle;
+}
+
+/*TODO MAIN*/
+
+main{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    left: 20%;
+    color: white;
+    padding: 5% 5% 10% 5%;
+}
+
+.flotante{
+    float: left;
+    margin-right: 15px;
+}
+
+.descripcion{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+#inscrip{
+    clear: left;
+    margin-top: 115px;
+}
+
+.planilla{
+    margin: 20px 0px 30px 0px;
+}
+
+#datos{
+    margin-bottom: 50px;
+}
+
+.nya{
+    display: flex;   
+}
+
+#campo-apellido{
+    padding-left: 10px;
+}
+
+.turnos{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.turnos-semanal{
+    padding-left: 20px;
+}
+
+.col-12{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*TODO ASIDE*/
+
+aside{
+    border: solid white 2px;
+    border-top-style: none;
+    position: absolute;
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    bottom: 0%;
+    left: 80%;
+}
+
+.publi{
+    height: 100%;
+    width: 100%;
+}
+/*TODO FOOTER*/
+
+footer{
+    border: solid white 2px;
+    position: absolute;
+    position: fixed;
+    top: 90%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-image: url("../imagenes/cesped.dib");
+    color: white;
+    text-align: justify
+}
+
+#diseño{
+    position: absolute;
+    height: 100%;
+}
+
+h4{
+    padding-left: 300px;
+}
+
+#inicio, #arriba{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    
+}
+
+#arriba{
+    right: 2%;
+}
+
+#inicio{
+    right: 10%;
+}
